@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240C9CFB1E97C5AF004748F0 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CFA1E97C5AF004748F0 /* StationCell.swift */; };
+		240C9CFD1E97C5D4004748F0 /* GenreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CFC1E97C5D4004748F0 /* GenreCell.swift */; };
+		242011951ECB3F8F00FDC155 /* AccountSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */; };
+		242DE4691EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE4681EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift */; };
+		242DE46B1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE46A1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift */; };
+		242DE46D1EBC73B4001479C8 /* FavStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE46C1EBC73B4001479C8 /* FavStationsViewController.swift */; };
+		242DE46F1EBC751D001479C8 /* FavStationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE46E1EBC751D001479C8 /* FavStationCell.swift */; };
 		242DE7D71E56080300A11093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE7D61E56080300A11093 /* AppDelegate.swift */; };
 		242DE7D91E56080300A11093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE7D81E56080300A11093 /* ViewController.swift */; };
 		242DE7DC1E56080300A11093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242DE7DA1E56080300A11093 /* Main.storyboard */; };
@@ -14,6 +21,15 @@
 		242DE7E11E56080300A11093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242DE7DF1E56080300A11093 /* LaunchScreen.storyboard */; };
 		242DE7EC1E56080300A11093 /* RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE7EB1E56080300A11093 /* RadioUITests.swift */; };
 		242DE7F71E56080400A11093 /* RadioUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE7F61E56080400A11093 /* RadioUIUITests.swift */; };
+		24863D251EC5016D0056A14C /* ShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24863D241EC5016D0056A14C /* ShareView.xib */; };
+		24863D271EC9BD630056A14C /* GenreContentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24863D261EC9BD630056A14C /* GenreContentsCell.swift */; };
+		24863D291EC9FAB40056A14C /* SoundSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24863D281EC9FAB40056A14C /* SoundSettingsCell.swift */; };
+		24863D2B1EC9FAE60056A14C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24863D2A1EC9FAE60056A14C /* SettingsViewController.swift */; };
+		249BC0941EB27303007FC753 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BC0931EB27303007FC753 /* DetailViewController.swift */; };
+		249BC0961EB3C322007FC753 /* LockedStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BC0951EB3C322007FC753 /* LockedStationDetailViewController.swift */; };
+		24D5A75C1EA5246500681778 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A75B1EA5246500681778 /* Helpers.swift */; };
+		24D5A75E1EA7BF2600681778 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 24D5A75D1EA7BF2600681778 /* Podfile */; };
+		48E2918DE779471FA2BBF689 /* Pods_RadioUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6AEA2F539F4B57F392319A /* Pods_RadioUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240C9CFA1E97C5AF004748F0 /* StationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
+		240C9CFC1E97C5D4004748F0 /* GenreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreCell.swift; sourceTree = "<group>"; };
+		242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingsCell.swift; sourceTree = "<group>"; };
+		242DE4681EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedStationDetailViewController.swift; sourceTree = "<group>"; };
+		242DE46A1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemporaryUnlockedStationDetailViewController.swift; sourceTree = "<group>"; };
+		242DE46C1EBC73B4001479C8 /* FavStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavStationsViewController.swift; sourceTree = "<group>"; };
+		242DE46E1EBC751D001479C8 /* FavStationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavStationCell.swift; sourceTree = "<group>"; };
 		242DE7D31E56080300A11093 /* RadioUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		242DE7D61E56080300A11093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		242DE7D81E56080300A11093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,17 @@
 		242DE7F21E56080400A11093 /* RadioUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242DE7F61E56080400A11093 /* RadioUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioUIUITests.swift; sourceTree = "<group>"; };
 		242DE7F81E56080400A11093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24863D241EC5016D0056A14C /* ShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareView.xib; sourceTree = "<group>"; };
+		24863D261EC9BD630056A14C /* GenreContentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreContentsCell.swift; sourceTree = "<group>"; };
+		24863D281EC9FAB40056A14C /* SoundSettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundSettingsCell.swift; sourceTree = "<group>"; };
+		24863D2A1EC9FAE60056A14C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		249BC0931EB27303007FC753 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		249BC0951EB3C322007FC753 /* LockedStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedStationDetailViewController.swift; sourceTree = "<group>"; };
+		24D5A75B1EA5246500681778 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		24D5A75D1EA7BF2600681778 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39C18F00B7F33D124EE608DF /* Pods-RadioUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioUI/Pods-RadioUI.debug.xcconfig"; sourceTree = "<group>"; };
+		5A6AEA2F539F4B57F392319A /* Pods_RadioUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7378783A4894323C8D5610 /* Pods-RadioUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioUI/Pods-RadioUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E2918DE779471FA2BBF689 /* Pods_RadioUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +112,13 @@
 		242DE7CA1E56080300A11093 = {
 			isa = PBXGroup;
 			children = (
+				24D5A75D1EA7BF2600681778 /* Podfile */,
 				242DE7D51E56080300A11093 /* RadioUI */,
 				242DE7EA1E56080300A11093 /* RadioUITests */,
 				242DE7F51E56080400A11093 /* RadioUIUITests */,
 				242DE7D41E56080300A11093 /* Products */,
+				29149A7E2E913F995A32B5F3 /* Pods */,
+				86DB1DEC2005F9FF6EBFD60C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +136,22 @@
 			isa = PBXGroup;
 			children = (
 				242DE7D61E56080300A11093 /* AppDelegate.swift */,
+				24D5A75B1EA5246500681778 /* Helpers.swift */,
 				242DE7D81E56080300A11093 /* ViewController.swift */,
+				240C9CFA1E97C5AF004748F0 /* StationCell.swift */,
+				240C9CFC1E97C5D4004748F0 /* GenreCell.swift */,
+				249BC0931EB27303007FC753 /* DetailViewController.swift */,
+				24863D261EC9BD630056A14C /* GenreContentsCell.swift */,
+				249BC0951EB3C322007FC753 /* LockedStationDetailViewController.swift */,
+				242DE4681EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift */,
+				242DE46A1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift */,
+				242DE46C1EBC73B4001479C8 /* FavStationsViewController.swift */,
+				242DE46E1EBC751D001479C8 /* FavStationCell.swift */,
+				24863D2A1EC9FAE60056A14C /* SettingsViewController.swift */,
+				242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */,
+				24863D281EC9FAB40056A14C /* SoundSettingsCell.swift */,
 				242DE7DA1E56080300A11093 /* Main.storyboard */,
+				24863D241EC5016D0056A14C /* ShareView.xib */,
 				242DE7DD1E56080300A11093 /* Assets.xcassets */,
 				242DE7DF1E56080300A11093 /* LaunchScreen.storyboard */,
 				242DE7E21E56080300A11093 /* Info.plist */,
@@ -125,6 +177,23 @@
 			path = RadioUIUITests;
 			sourceTree = "<group>";
 		};
+		29149A7E2E913F995A32B5F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39C18F00B7F33D124EE608DF /* Pods-RadioUI.debug.xcconfig */,
+				FA7378783A4894323C8D5610 /* Pods-RadioUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86DB1DEC2005F9FF6EBFD60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A6AEA2F539F4B57F392319A /* Pods_RadioUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 242DE7FB1E56080400A11093 /* Build configuration list for PBXNativeTarget "RadioUI" */;
 			buildPhases = (
+				FBA537F238680DB567A96646 /* [CP] Check Pods Manifest.lock */,
 				242DE7CF1E56080300A11093 /* Sources */,
 				242DE7D01E56080300A11093 /* Frameworks */,
 				242DE7D11E56080300A11093 /* Resources */,
+				D81ACAA35E9AE22900EDF62C /* [CP] Embed Pods Frameworks */,
+				281D5080C6D9FC4AABE66E39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +309,8 @@
 			files = (
 				242DE7E11E56080300A11093 /* LaunchScreen.storyboard in Resources */,
 				242DE7DE1E56080300A11093 /* Assets.xcassets in Resources */,
+				24D5A75E1EA7BF2600681778 /* Podfile in Resources */,
+				24863D251EC5016D0056A14C /* ShareView.xib in Resources */,
 				242DE7DC1E56080300A11093 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +331,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		281D5080C6D9FC4AABE66E39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioUI/Pods-RadioUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81ACAA35E9AE22900EDF62C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioUI/Pods-RadioUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA537F238680DB567A96646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		242DE7CF1E56080300A11093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				242DE7D91E56080300A11093 /* ViewController.swift in Sources */,
+				24D5A75C1EA5246500681778 /* Helpers.swift in Sources */,
 				242DE7D71E56080300A11093 /* AppDelegate.swift in Sources */,
+				242011951ECB3F8F00FDC155 /* AccountSettingsCell.swift in Sources */,
+				242DE46D1EBC73B4001479C8 /* FavStationsViewController.swift in Sources */,
+				24863D291EC9FAB40056A14C /* SoundSettingsCell.swift in Sources */,
+				249BC0961EB3C322007FC753 /* LockedStationDetailViewController.swift in Sources */,
+				249BC0941EB27303007FC753 /* DetailViewController.swift in Sources */,
+				242DE46B1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift in Sources */,
+				242DE46F1EBC751D001479C8 /* FavStationCell.swift in Sources */,
+				24863D2B1EC9FAE60056A14C /* SettingsViewController.swift in Sources */,
+				242DE4691EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift in Sources */,
+				24863D271EC9BD630056A14C /* GenreContentsCell.swift in Sources */,
+				240C9CFD1E97C5D4004748F0 /* GenreCell.swift in Sources */,
+				240C9CFB1E97C5AF004748F0 /* StationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +548,7 @@
 		};
 		242DE7FC1E56080400A11093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C18F00B7F33D124EE608DF /* Pods-RadioUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JVSD25TQQG;
@@ -426,6 +562,7 @@
 		};
 		242DE7FD1E56080400A11093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7378783A4894323C8D5610 /* Pods-RadioUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JVSD25TQQG;
@@ -514,6 +651,7 @@
 				242DE7FD1E56080400A11093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242DE7FE1E56080400A11093 /* Build configuration list for PBXNativeTarget "RadioUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +660,7 @@
 				242DE8001E56080400A11093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242DE8011E56080400A11093 /* Build configuration list for PBXNativeTarget "RadioUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +669,7 @@
 				242DE8031E56080400A11093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import RadioUI
 
 class RadioUITests: XCTestCase {
     
