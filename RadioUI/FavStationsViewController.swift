@@ -57,9 +57,9 @@ class FavStationsViewController: UIViewController, UITableViewDelegate, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "FavStationCell") as! FavStationCell
         
         if indexPath.section == 2 {
-            cell.onAirLabel.isHidden = false
+            cell.backgroundColor = hex_5629F3
         } else {
-            cell.onAirLabel.isHidden = true
+            cell.backgroundColor = hex_121135
         }
         
         if indexPath.section == 1 {

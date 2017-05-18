@@ -58,6 +58,8 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
             cell  = tableView.dequeueReusableCell(withIdentifier: "AccountSettingsCell", for: indexPath) as! AccountSettingsCell
         } else if indexPath.section == 1 {
            cell  = tableView.dequeueReusableCell(withIdentifier: "SoundSettingsCell", for: indexPath) as! SoundSettingsCell
+        } else if indexPath.section == 2 {
+            cell  = tableView.dequeueReusableCell(withIdentifier: "FeedbackCell", for: indexPath) as! FeedbackCell
         }
         
         return cell

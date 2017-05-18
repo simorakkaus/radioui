@@ -60,3 +60,5 @@ let hex_081123_alpha_95 = UIColor(red:0.03, green:0.07, blue:0.14, alpha:0.95)
 let hex_081123_alpha_85 = UIColor(red:0.03, green:0.07, blue:0.14, alpha:0.85)
 let hex_081123_alpha_65 = UIColor(red:0.03, green:0.07, blue:0.14, alpha:0.65)
 let hex_081123_alpha_25 = UIColor(red:0.03, green:0.07, blue:0.14, alpha:0.25)
+
+let hex_121135 = UIColor(red:0.07, green:0.07, blue:0.21, alpha:1.0)

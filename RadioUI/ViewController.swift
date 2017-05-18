@@ -123,9 +123,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.stationLabel.text = stations[index][indexPath.section]
         
         if cell.stationLabel.text == "ПРАВОСЛАВНАЯ МУЗЫКА" {
-            cell.onAirLabel.isHidden = false
+            cell.backgroundColor = hex_5629F3
         } else {
-            cell.onAirLabel.isHidden = true
+            cell.backgroundColor = hex_121135
         }
         
         if cell.stationLabel.text == "ДЭНСХОЛЛ / РАГГАМАФФИН" || cell.stationLabel.text == "РУТС РЕГГИ" || cell.stationLabel.text == "РЕГГИ" {
@@ -207,17 +207,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         collectionViewIndexPath = indexPath
         
-        var gradientLayer: CAGradientLayer!
-        func createGradientLayer() {
-            gradientLayer = CAGradientLayer()
-            
-            gradientLayer.frame = cell.thumbnailImage.bounds
-            
-            gradientLayer.colors = [hex_081123_alpha_65.cgColor, hex_081123.cgColor]
-            
-            cell.thumbnailImage.layer.insertSublayer(gradientLayer, at: 1)
-        }
-        
         if cell.genreLabel.text == "РЕГГИ / СКА" {
             cell.freeTimeStatusIcon.image = UIImage(named: "lock_black")
             cell.freeTimeLeftLabel.text = "0 часов осталось"
@@ -226,6 +215,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.quickBuyButton.layer.borderWidth = 1
             cell.quickBuyButton.layer.borderColor = UIColor.white.cgColor
             cell.quickBuyButton.layer.cornerRadius = 6
+            var gradientLayer: CAGradientLayer!
+            func createGradientLayer() {
+                gradientLayer = CAGradientLayer()
+                
+                gradientLayer.frame = cell.thumbnailImage.bounds
+                
+                gradientLayer.colors = [hex_081123_alpha_65.cgColor, hex_081123.cgColor]
+                
+                cell.thumbnailImage.layer.insertSublayer(gradientLayer, at: 1)
+            }
             createGradientLayer()
             
         } else {

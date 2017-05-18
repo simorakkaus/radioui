@@ -1,18 +1,14 @@
 //
-//  GenresCell.swift
+//  FeedbackCell.swift
 //  RadioUI
 //
-//  Created by Simo on 07.04.17.
+//  Created by Simo on 16.05.17.
 //  Copyright © 2017 Simo. All rights reserved.
 //
 
 import UIKit
 
-class StationCell: UITableViewCell {
-    @IBOutlet weak var stationLabel: UILabel!
-    @IBOutlet weak var freeTimeStationView: UIView!
-    @IBOutlet weak var freeStationLockedView: UIView!
-    @IBOutlet weak var addedToFavStationView: UIView!
+class FeedbackCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,7 +19,6 @@ class StationCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-        
     }
 
 }

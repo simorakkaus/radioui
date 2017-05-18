@@ -10,6 +10,7 @@
 		240C9CFB1E97C5AF004748F0 /* StationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CFA1E97C5AF004748F0 /* StationCell.swift */; };
 		240C9CFD1E97C5D4004748F0 /* GenreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C9CFC1E97C5D4004748F0 /* GenreCell.swift */; };
 		242011951ECB3F8F00FDC155 /* AccountSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */; };
+		242011971ECB40DB00FDC155 /* FeedbackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242011961ECB40DB00FDC155 /* FeedbackCell.swift */; };
 		242DE4691EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE4681EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift */; };
 		242DE46B1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE46A1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift */; };
 		242DE46D1EBC73B4001479C8 /* FavStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE46C1EBC73B4001479C8 /* FavStationsViewController.swift */; };
@@ -53,6 +54,7 @@
 		240C9CFA1E97C5AF004748F0 /* StationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationCell.swift; sourceTree = "<group>"; };
 		240C9CFC1E97C5D4004748F0 /* GenreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreCell.swift; sourceTree = "<group>"; };
 		242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingsCell.swift; sourceTree = "<group>"; };
+		242011961ECB40DB00FDC155 /* FeedbackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackCell.swift; sourceTree = "<group>"; };
 		242DE4681EB9C4AD001479C8 /* UnlockedStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockedStationDetailViewController.swift; sourceTree = "<group>"; };
 		242DE46A1EB9C70F001479C8 /* TemporaryUnlockedStationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemporaryUnlockedStationDetailViewController.swift; sourceTree = "<group>"; };
 		242DE46C1EBC73B4001479C8 /* FavStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavStationsViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				24863D2A1EC9FAE60056A14C /* SettingsViewController.swift */,
 				242011941ECB3F8F00FDC155 /* AccountSettingsCell.swift */,
 				24863D281EC9FAB40056A14C /* SoundSettingsCell.swift */,
+				242011961ECB40DB00FDC155 /* FeedbackCell.swift */,
 				242DE7DA1E56080300A11093 /* Main.storyboard */,
 				24863D241EC5016D0056A14C /* ShareView.xib */,
 				242DE7DD1E56080300A11093 /* Assets.xcassets */,
@@ -386,6 +389,7 @@
 			files = (
 				242DE7D91E56080300A11093 /* ViewController.swift in Sources */,
 				24D5A75C1EA5246500681778 /* Helpers.swift in Sources */,
+				242011971ECB40DB00FDC155 /* FeedbackCell.swift in Sources */,
 				242DE7D71E56080300A11093 /* AppDelegate.swift in Sources */,
 				242011951ECB3F8F00FDC155 /* AccountSettingsCell.swift in Sources */,
 				242DE46D1EBC73B4001479C8 /* FavStationsViewController.swift in Sources */,
